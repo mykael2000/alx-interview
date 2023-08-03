@@ -4,6 +4,8 @@
 
 
 def canUnlockAll(boxes):
+    '''checks boxes in a list
+    '''
     va = len(boxes)
     seenBoxes = set([0])
     unseenBoxes = set(boxes[0]).difference(set([0]))
